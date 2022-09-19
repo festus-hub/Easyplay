@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226621046780",
+    "project_id": "easymusicplayer-36c9d",
+    "storage_bucket": "easymusicplayer-36c9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226621046780:android:793dd969fbf06194f2fc79",
+        "android_client_info": {
+          "package_name": "com.example.easymusicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226621046780-vqdegj7jcfohrt9c79m2rfntd19tf5q3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZd2xg1MrM9JQwTOPs1K2Asu5ejj58O6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226621046780-vqdegj7jcfohrt9c79m2rfntd19tf5q3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

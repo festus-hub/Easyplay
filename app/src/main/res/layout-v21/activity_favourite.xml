@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FavouriteActivity">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extendedFloatingActionButton"
+        android:layout_width="171dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/teal_200"
+        app:icon="@drawable/shuffle_icon"
+        app:iconSize="25dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="7dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/purple_200">
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="@android:color/transparent"
+        android:contentDescription="@string/back_btn"
+        android:src="@drawable/back_icon"
+        android:tint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:layout_width="426dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/favourites_btn"
+        android:gravity="center"
+        android:text="@string/favourites_btn"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="7dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
